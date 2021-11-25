@@ -1,0 +1,64 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+  @import url(https://fonts.googleapis.com/css2?family=Roboto:wght@100;200;300;400;500;600;800;900&display=swap);
+
+  body {
+    background-color: #ffa600;
+    height: 100vh;
+  }
+  .container {
+    background-color: white;
+    box-shadow: -2px 2px 5px rgb(138, 103, 39);
+    max-width: 500px;
+    width: 70%;
+    padding: 20px;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 10px;
+  }
+  h2 {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: auto 0 15px;
+  }
+  input {
+    width: 100%;
+    padding: 10px;
+    font-size: 20px;
+    border: none;
+    background-color: #f1f1f1;
+    outline: none;
+    border-radius: 15px;
+  }
+
+  .container .btnSetup {
+      display: flex;
+      justify-content: center;
+      margin: 20px 0;
+  }
+  button {
+    width: 25%;
+    background: #2cc206;
+    color: white;
+    padding: 10px;
+    margin: 0 5px;
+    font-size: 20px;
+    border: none;
+    outline: aliceblue;
+    border-radius: 15px;
+    cursor: pointer;
+  }
+  button:last-of-type {
+      background-color: red;
+  }
+
+  h1 {    
+     font-family: 'Roboto', sans-serif;
+     font-size: 40px; 
+     text-align: center;
+  }
