@@ -5,15 +5,22 @@
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Euro / Real Coverter</title>
+        <!--ADDING STYLESHEET-->
+        <link rel="stylesheet" href="public/css/style.css">
     </head>
     <body>
-        <div>
-            <input type="number" id="euroAmount">
-            <input type="number" id="realAmount">
-            <button id="btnConverter">Converter</button>
-
-            <h1></h1>
-        </div>
+        <main class="container">
+            <h2>Conversor Euro / Real</h2>	
+            <input id="euroAmount" type="number" placeholder="Digite um valor em Euro">
+            <span></span>
+           
+            <div class="btnSetup">
+                <button id="btnConverter">Calcular</button>
+                <button id="btnClean">Limpar</button>
+            </div>
+            
+            <h1 id="result"></h1>
+        </main>
 
 
         <script src="public/js/main.js"></script>

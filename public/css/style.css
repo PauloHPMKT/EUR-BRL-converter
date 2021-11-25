@@ -22,11 +22,11 @@
     transform: translate(-50%, -50%);
     border-radius: 10px;
   }
-  h2 {
+  .container h2 {
     font-family: Arial, Helvetica, sans-serif;
     margin: auto 0 15px;
   }
-  input {
+  .container input {
     width: 100%;
     padding: 10px;
     font-size: 20px;
@@ -41,7 +41,7 @@
       justify-content: center;
       margin: 20px 0;
   }
-  button {
+  .container .btnSetup button {
     width: 25%;
     background: #2cc206;
     color: white;
@@ -53,12 +53,31 @@
     border-radius: 15px;
     cursor: pointer;
   }
-  button:last-of-type {
+  .container .btnSetup button:last-of-type {
       background-color: red;
   }
 
   h1 {    
      font-family: 'Roboto', sans-serif;
-     font-size: 40px; 
+     font-size: 25px;
+     font-weight: 300; 
      text-align: center;
+  }
+
+
+  /*------------media queries-----------*/
+
+  @media (max-width: 600px) {
+    .container {
+        width: 90%;
+    }
+    .container .btnSetup button {
+        font-size: 17px;
+    }
+  }
+
+  @media (max-width: 400px) {
+    .container .btnSetup button {
+        font-size: 14px;
+    } 
   }
