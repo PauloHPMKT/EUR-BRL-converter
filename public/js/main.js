@@ -6,7 +6,7 @@ const btnClean = document.querySelector('#btnClean')
 const result = document.querySelector('#result')
 
 //api url Fixer.io ============================================================================
-const urlApiKey = 'https://data.fixer.io/api/latest?access_key=4db85286f1814f557cd74c6881892ffe'
+const urlApiKey = 'http://data.fixer.io/api/latest?access_key=4db85286f1814f557cd74c6881892ffe'
 
 
 //new feature - priceOfTheDay.innerHTML = `Cotação do dia: ${(euroAmount).toFixed(2)}`
